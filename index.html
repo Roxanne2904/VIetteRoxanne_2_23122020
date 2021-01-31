@@ -26,54 +26,58 @@
             
             <section id="research">
                     
-                    <h1>
-                    <span id="h1_research">Touver votre hébergement pour des vacances de rêve</span>
-                    <br/>
-                    <span class="text_rang3">En plein centre ville ou en pleine nature</span>
-                    </h1>
-                    
-                    <form method="post"action="fichier.php">
-                            
-                            <p>
-                                <i class="fas fa-map-marker-alt"></i>
-                            </p>
-                                
-                            <p>
-                                <input type="search" name="rechercher" id="rechercher" placeholder="Marseille,France"/><label for="rechercher">Rechercher</label>
-                            </p>
-                            
-                    </form>            
-                    
-                    <div id="bloc_filtre">
-                        
-                        <h2>
-                        Filtres
-                        </h2>
-
-                        <div id="bloc_eco">
-                            <p><span id="icone_filtre"><i class="fas fa-money-bill-wave-alt"></i></span></p>
-                            <p><span id="name_filtre">Economique</span></p>
-                        </div>
-                        
-                        <div id="bloc_familly">
-                            <p><span id="icone_filtre"><i class="fas fa-child"></i></span></p>
-                            <p><span id="name_filtre">Famillial</span></p>
-                        </div>
-
-                        <div id="bloc_romantique">
-                            <p><span id="icone_filtre"><i class="fas fa-heart"></i></span></p>
-                            <p><span id="name_filtre">Romantique</span></p>
-                        </div>
-
-                        <div id="bloc_animals">
-                            <p><span id="icone_filtre"><i class="fas fa-dog"></i></span></p>
-                            <p><span id="name_filtre">Animaux Autorisés</span></p>
-                        </div>
-                
+                    <div id="bloc_titre_research">
+                            <h1 id="h1_research"> 
+                            Touver votre hébergement pour des vacances de rêve
+                            </h1>
+                            <br/>
+                            <p class="text_rang3" id="soustext_h1_research">En plein centre ville ou en pleine nature</p>
                     </div>
                     
-                    <div id="infos">
-                        <p><i class="fas fa-info"></i></p>
+                    <div id="bloc_formulaire">
+                        <p>
+                            <span id="logo_form"><i class="fas fa-map-marker-alt"></i></span>
+                        </p>
+                        <form method="post"action="fichier.php">
+                                
+                                <p>
+                                    <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France"/>
+                                    <label for="rechercher"><strong>Rechercher</strong></label>
+                                </p>
+                                
+                        </form>  
+                    </div>
+                              
+                    
+                    <div id="bloc_filtre">
+                            <h2 id="titre_filtre">
+                            Filtres
+                            </h2>
+
+                            <p class="backg_icone_filtre"><span id="icone_eco"><i class="fas fa-money-bill-wave-alt"></i></span></p>
+                            <div id="bloc_eco">
+                                <h2><span class="name_filtre">Economique</span></h2>
+                            </div>
+                                
+                            <p class="backg_icone_filtre"><span id="icone_famillial"><i class="fas fa-child"></i></span></p>
+                            <div id="bloc_familly">
+                                <h2><span class="name_filtre">Famillial</span></h2>
+                            </div>
+
+                            <p class="backg_icone_filtre"><span id="icone_romantique"><i class="fas fa-heart"></i></span></p>
+                            <div id="bloc_romantique">
+                                <h2><span class="name_filtre">Romantique</span></h2>
+                            </div>
+
+                            <p class="backg_icone_filtre"><span id="icone_animaux"><i class="fas fa-dog"></i></span></p>
+                            <div id="bloc_animals">
+                                <h2><span class="name_filtre">Animaux Autorisés</span></h2>
+                            </div>
+
+                    </div>
+                    
+                    <div id="bloc_infos">
+                        <p id="conteneur_logo_infos"><span id="logo_infos"><i class="fas fa-info"></i></span></p>
                         <p class="text_rang3">PLus de 500 logements sont disponibles dans cette ville</p>
                     </div>
                     
