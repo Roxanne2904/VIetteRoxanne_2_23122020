@@ -293,3 +293,106 @@ label
     top:0.15em;
     font-size: 0.95em;
 }
+
+/*SECTION_HEBERGEMENT_article*/
+
+article
+{
+    width: 51.5em;
+    border-radius:1.5em;
+    background-color: lightcoral;
+    padding:0.2em 1em 1em 1em;
+}
+article h1
+{
+    position:relative;
+    top:0.5em;
+    left: 1.1em;
+}
+#bloc_hebergement
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightgreen;
+}
+
+.element_a
+{
+    width:14em;
+    height:11em;
+    margin:0.7em;
+    border-radius: 1em;
+    box-shadow: 0.4em 0.6em 0.6em rgba(22, 22, 22, 0.199);
+    background-color:white;
+    overflow: hidden;
+}
+.photo_a
+{
+    width:13.4em;
+    height:6.5em;
+    overflow: hidden;
+    border-radius: 0.8em 0.8em 0em 0em;
+    z-index:1;
+    margin:0.3em;
+}
+article img
+{
+    width:14em;
+    position:relative;
+    bottom: 1.4em;
+    right:0.3em;
+
+}
+#photo_4
+{
+    position: relative;
+    bottom: 3.5em;
+}
+#photo_6
+{
+    position: relative;
+    bottom: 7.2em;
+}
+article h2, aside h2
+{
+    font-size: 0.85em;
+    font-family:'ralewaybold' ;
+    margin:0em;
+    position: relative;
+    bottom: 0.5em;
+}
+.infos_prix
+{
+    font-size: 0.79em;
+    margin-top: 0em;
+    position: relative;
+    bottom: 0.3em;
+}
+article ul,aside ul
+{
+    display:flex;
+    justify-content: flex-start;
+    list-style-type:none;
+    padding-left: 0em;
+    margin-top: 0em;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 1em;
+    color:#0065FC;
+}
+.text_photo
+{
+    position: relative;
+    bottom: 0.3em;
+    padding-left:1em;
+    padding-top:0.83em;
+}
+#textfin_a
+{
+    width: 8em;
+    background-color: turquoise;
+    font-family: 'ralewaybold' ;
+    position:relative;
+    left: 1.5em;
+}
