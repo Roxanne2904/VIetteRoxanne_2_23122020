@@ -1,4 +1,5 @@
-02/02/2021
-- Réalisation du code css de la partie section hébergement -aside-
-- Début de réalisation de la partie "activités"
+03/02/2021
+- Le css de base à été entièrement fait!
+- Changement du code css pour les filtres
+- Les filtres changent d'apparence au survol (:hover)
  
