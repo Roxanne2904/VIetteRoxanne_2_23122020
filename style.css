@@ -595,25 +595,23 @@ aside a
     border-radius:0.8em 0em 0em 0.8em ;
     overflow: hidden;
 }
-aside img
-{
-    width:100%;
-    position: relative;
-    bottom: 1.2em;
-}
 #photo_1asd
 {
+    height: 100%;
     position: relative;
-    right:3em;
-    bottom: 0.5em;
-    width:180%
+    right:2.5em;
 }
 #photo_2asd
 {
+    height:100%;
+    position:relative;
+    right:1em;
+}
+#photo_3asd
+{
     position: relative;
-    right:2.3em;
-    bottom: 0.4em;
-    width:160%
+    bottom: 0.6em;
+    width: 100%;
 }
 .text_photo_asd
 {
@@ -674,7 +672,7 @@ aside a:visited
     display:flex;
     justify-content: space-between;
     height:100%;
-    width:50%;
+    width:48.25%;
 }
 .bloc_1
 {
@@ -699,10 +697,6 @@ aside a:visited
     justify-content: space-between;
     height:100%;
     width:46.5%;  
-}
-#bloc_spé
-{
-    margin-right: 3.2%;
 }
 .bloc_img_tall
 {
@@ -763,7 +757,7 @@ aside a:visited
 }
 .img_tall
 {
-    width:200%;
+    height: 100%;
     position: relative;
     right:9em;
 }

@@ -1,0 +1,49 @@
+#bloc_filtre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 76%;
+    margin-top:0%;
+}
+#element_famille,#element_romantique,#element_animaux
+{
+    margin-top:0.5em;
+}
+#bloc_article_et_aside
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article
+{
+    flex:1;
+    width:auto;
+    border-radius:1.5em;
+    background-color:#d8d8d8;
+    padding:0.2em 1em 5em 1em;
+    margin-right:0%;
+}
+aside {
+    width: auto;
+    background-color: #d8d8d8;
+    border-radius: 1.5em;
+    padding: 0.8em 1em 1em 1em;
+    margin-top: 1em;
+}
+#bloc_aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 0.2em;
+}
+.element_asd
+{
+    margin: 0% 1% 2% 1%;
+}
+#bloc_activites h3
+{
+    font-size: 0.83em;
+}
