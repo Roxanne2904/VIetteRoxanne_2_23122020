@@ -47,3 +47,20 @@ aside {
 {
     font-size: 0.83em;
 }
+article img 
+{
+    position: relative;
+    bottom: 2.9em;
+    right: 0.2em;
+}
+#photo_4 {
+    position: relative;
+    bottom: 6.5em;
+}
+#photo_6 
+{
+    position: relative;
+    bottom: 12em;
+}
+    
+    
