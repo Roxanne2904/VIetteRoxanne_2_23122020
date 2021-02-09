@@ -1,10 +1,15 @@
-#bloc_filtre {
-    display: flex;
+#bloc_filtre 
+{
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
-    width: 76%;
     margin-top:0%;
+}
+
+#bloc_element_filtre
+{
+    flex-direction: column;
+    position: relative;
+    left: 0;
 }
 #element_famille,#element_romantique,#element_animaux
 {
@@ -31,17 +36,15 @@ aside {
     border-radius: 1.5em;
     padding: 0.8em 1em 1em 1em;
     margin-top: 1em;
+    height:13em;
 }
 #bloc_aside {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    position: relative;
-    bottom: 0.2em;
 }
 .element_asd
 {
-    margin: 0% 1% 2% 1%;
+    margin: 1% 2% 1% 2%;
 }
 #bloc_activites h3
 {
@@ -50,17 +53,21 @@ aside {
 article img 
 {
     position: relative;
-    bottom: 2.9em;
+    bottom: 4.5em;
     right: 0.2em;
 }
 #photo_4 {
     position: relative;
-    bottom: 6.5em;
+    bottom: 7em;
 }
 #photo_6 
 {
     position: relative;
-    bottom: 12em;
+    bottom: 12.5em;
+}
+#textfin_a
+{
+    padding-left: 2em;
 }
     
     

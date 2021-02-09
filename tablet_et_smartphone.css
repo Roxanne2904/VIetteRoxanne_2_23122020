@@ -1,12 +1,14 @@
 body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(160, 86, 86);
 }
 #bloc_page
 {
     margin:0;
     width: auto;
 }
+/*HEADER_NAVIGATION*/
+
 header
 {
     height:8em;
@@ -20,7 +22,7 @@ nav
     padding-left: 2.5%;
     position: absolute;
     bottom: 0em;
-    top: 0.8em;
+    top: 0.6em;
 }
 nav ul
 {
@@ -28,7 +30,7 @@ nav ul
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
     padding-left: 0;
-    width: auto;
+    width: 100%;
     height: 100%;
 }
 nav li:hover
@@ -72,14 +74,184 @@ nav li
 }
 #nav_activites
 {
-    height: 50%;
+    height: 40%;
     order:2;
     font-size:1em;
 }
 #nav_hebergement
 {
     order:3;
-    height: 50%;
+    height: 40%;
     font-size:1em;
 }
 
+/*FILTRES*/
+#research
+{
+    margin-top: 1.5em;
+    padding-left: 3.5%;
+}
+#bloc_filtre
+{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 98%;
+}
+#bloc_element_filtre
+{
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0;
+}
+#element_eco,#element_animaux,#element_romantique,#element_famille
+{
+   margin:0.5em; 
+}
+
+#h1_research
+{
+    font-size: 1.56em;
+    width: 89%;
+    margin:0;
+}
+#soustext_h1_research
+{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+#bloc_formulaire
+{
+    margin-top: 1.5em;
+    width: 20em;
+    height: 3.1em;
+    justify-content: space-between;
+    overflow: visible;
+}
+form
+{
+  width:87%;  
+  background-color: transparent;
+}
+#bloc_formulaire p, label {
+    margin: 0;
+}
+input
+{
+    position: relative;
+    top: 0.145em;
+    left: 0em;
+    height: 2.55em;
+    width: 15em;
+    font-size: 1.1em;
+}
+label
+{
+    display:none;
+}
+#label_mobile 
+{
+    display: initial;
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+    width: 3.25em;
+    height: 3.25em;
+    border-radius: 1em;
+    font-size: 0.95em;
+    background-color:#0065FC;
+}
+#label_mobile i 
+{
+    font-size: 1.5em;
+    position: relative;
+    top: 0.65em;
+    left: 0.55em;
+}
+#logo_form {
+    position: relative;
+    left: 0.8em;
+    top: 0.8em;
+    font-size: 1.2em;
+}
+p.text_rang3
+{
+    width: 80%;
+}
+#conteneur_logo_infos
+{
+    margin-top: 1%;
+}
+
+/*HEBERGEMENT_ARTICLE_ET_ASIDE*/
+
+#hebergement {
+    margin-top:0;
+    position: relative;
+}
+#hebergement #titre_principal
+{
+    position: absolute;
+    top: 24.5em;
+    right: 3.18em;
+    width: 75%;
+    font-size: 1.4em;
+    z-index: 1;
+}
+#bloc_article_et_aside
+{
+    flex-direction: column-reverse;
+}
+aside
+{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+}
+article
+{
+    width: auto;
+    margin-right: 0;
+    border-radius: 0;
+    padding: 0.5em 0.5em 2.8em 0.5em;
+    background-color: transparent;
+}
+#bloc_article
+{
+    flex-direction: column;
+}
+.photo_asd
+{
+    width: 8.7em;
+}
+.element_a
+{
+    width: auto;
+    height: 14em;
+}
+#textfin_a
+{
+    width: 30%;
+    padding-top: 0;
+}
+aside h3
+{
+    font-size: 1em;
+}
+article h3
+{
+    font-size: 1.15em;
+}
+.infos_prix
+{
+    font-size: 0.95em;
+}
+article ul
+{
+    font-size: 1.05em; 
+}
+.text_photo_a
+{
+    padding-top: 1.3em;
+}

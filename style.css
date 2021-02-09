@@ -131,7 +131,6 @@ nav li:hover a
 {
     width:auto;
     font-size:0.9em;
-    font-weight:normal;
 }
 #soustext_h1_research
 {
@@ -189,6 +188,10 @@ label
     font-size: 0.95em;
     color:white;
 }
+#label_mobile
+{
+    display:none;
+}
 #logo_form
 {
     position: relative;
@@ -205,6 +208,14 @@ label
     align-items: center;
     width:76%;
     margin-top:2.5%;
+}
+#bloc_element_filtre
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    left: 1em;
 }
 #element_eco
 {
@@ -303,7 +314,7 @@ label
 #icone_eco
 {
     position: relative;
-    left:0.6em;
+    left:0.65em;
     top:0.05em;
     font-size:1.3em;
 }
@@ -429,7 +440,7 @@ article
 .photo_a
 {
     width:100%;
-    height:58.7%;
+    height:60%;
     overflow: hidden;
     border-radius: 0.8em 0.8em 0em 0em;
     margin:0%;
@@ -439,7 +450,7 @@ article img
 {
     width:102%;
     position:relative;
-    bottom: 1.2em;
+    bottom: 1.7em;
     right:0.2em;
     height: auto;
 
@@ -447,7 +458,7 @@ article img
 #photo_4
 {
     position: relative;
-    bottom: 3.5em;
+    bottom: 4em;
 }
 #photo_5
 {
@@ -456,7 +467,7 @@ article img
 #photo_6
 {
     position: relative;
-    bottom: 6.8em;
+    bottom: 7.8em;
 }
 article h3, aside h3
 {
@@ -476,13 +487,12 @@ article h3, aside h3
 article ul,aside ul
 {
     display:flex;
-    justify-content: flex-start;
     list-style-type:none;
     padding-left: 0em;
     margin-top: 0em;
     font-size: 0.8em;
     position: relative;
-    bottom: 0.8em;
+    bottom: 0.9em;
     color:#0065FC;
 }
 .text_photo_a
@@ -564,7 +574,7 @@ aside a
 }
 .photo_asd
 {
-    width:39%;
+    width:6.5em;
     height:100%;
     margin:0;
     border-radius:0.8em 0em 0em 0.8em ;
@@ -585,7 +595,7 @@ aside a
 #photo_3asd
 {
     position: relative;
-    bottom: 0.9em;
+    bottom: 1.7em;
     width: 100%;
 }
 .text_photo_asd
@@ -599,7 +609,7 @@ aside a
 aside ul
 {
     position: relative;
-    bottom: 0.7em;
+    bottom: 1em;
 }
 aside a:link
 {
