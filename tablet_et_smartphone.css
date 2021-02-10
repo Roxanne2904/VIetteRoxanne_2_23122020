@@ -144,6 +144,7 @@ input
     height: 2.55em;
     width: 15em;
     font-size: 1.1em;
+    border: transparent 0.2em solid;
 }
 label
 {
@@ -185,22 +186,16 @@ p.text_rang3
 
 /*HEBERGEMENT_ARTICLE_ET_ASIDE*/
 
-#hebergement {
-    margin-top:0;
-    position: relative;
-}
-#hebergement #titre_principal
+#titre_principal
 {
-    position: absolute;
-    top: 24.5em;
-    right: 3.18em;
-    width: 75%;
+    position: initial;
+    width: auto;
     font-size: 1.4em;
-    z-index: 1;
 }
-#bloc_article_et_aside
+#bloc_hebergement_et_aside
 {
     flex-direction: column-reverse;
+    margin-top:0;
 }
 aside
 {
@@ -209,7 +204,7 @@ aside
     border-radius: 0;
     padding: 0.3em 0.3em 0.3em 0.3em;
 }
-article
+#hebergement
 {
     width: auto;
     margin-right: 0;
@@ -217,7 +212,7 @@ article
     padding: 0.5em 0.5em 2.8em 0.5em;
     background-color: transparent;
 }
-#bloc_article
+#bloc_hebergement
 {
     flex-direction: column;
 }
@@ -235,11 +230,11 @@ article
     width: 30%;
     padding-top: 0;
 }
-aside h3
+#hebergement h3
 {
     font-size: 1em;
 }
-article h3
+#hebergement h3
 {
     font-size: 1.15em;
 }
@@ -247,7 +242,7 @@ article h3
 {
     font-size: 0.95em;
 }
-article ul
+#hebergement ul
 {
     font-size: 1.05em; 
 }

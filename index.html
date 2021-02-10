@@ -46,7 +46,7 @@
                             </p>
                             <form method="post" action="fichier.php">
                                     
-                                    <p>
+                                    <p id="bloc_input_label">
                                         <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France"/>
                                         <label for="rechercher"><strong>Rechercher</strong></label>
                                         <label for="rechercher" id="label_mobile"><i class="fas fa-search"></i></label>
@@ -91,16 +91,18 @@
                         
                     </section>
                 
-                    <section id="hebergement">
-                        <h2 id="titre_principal">Hébergement à Marseille</h2>
-                        <div id="bloc_article_et_aside">
-                            <article>                            
-                            
-                                <div id="bloc_article">
+                    <div id="bloc_hebergement_et_aside">
+                        
+                            <section id="hebergement">                          
+                                
+                                <h2 id="titre_principal">Hébergement à Marseille</h2>
+                                
+                                <div id="bloc_hebergement">
+                                    
                                     <div class="element_a">
                                         <a href="index_2.html">
                                             
-                                        <p class="photo_a"><img src="image/hebergement/H_(5).jpg" alt=""/></p>
+                                        <p class="photo_a"><img src="image/hebergement/H_(5).jpg" alt="photo de la chambre" id="photo_1"/></p>
                                         
                                         <div class="text_photo_a">
                                                 <h3>Auberge la Cannebière</h3>
@@ -119,7 +121,7 @@
                                     
                                         <div class="element_a">
                                             <a href="index_2.html">
-                                            <p class="photo_a"><img src="image/hebergement/H_(9).jpg" alt="photo de la chambre"/></p>
+                                            <p class="photo_a"><img src="image/hebergement/H_(9).jpg" alt="photo de la chambre" id="photo_2"/></p>
                                                 
                                             <div class="text_photo_a"> 
                                                     <h3>Hôtel du port</h3>
@@ -138,7 +140,7 @@
                                 
                                     <div class="element_a">
                                         <a href="index_2.html">
-                                        <p class="photo_a"><img src="image/hebergement/H_(7).jpg" alt="photo de la chambre"/></p>
+                                        <p class="photo_a"><img src="image/hebergement/H_(7).jpg" alt="photo de la chambre" id="photo_3"/></p>
                                                 
                                         <div class="text_photo_a">    
                                                 <h3>Hôtel les mouettes</h3>
@@ -213,7 +215,7 @@
     
                                 <p id="textfin_a">Afficher plus</p>
                                                 
-                            </article>
+                            </section>
                             
                             <aside>
                                 
@@ -286,8 +288,8 @@
                                 </div>       
                                         
                             </aside>
-                        </div>
-                    </section>
+                        
+                    </div>
 
                     <section id="activites">
                         <h2>Activités à Marseille</h2>
@@ -352,7 +354,7 @@
                         </div>
                         
                     </section>
-            
+            </div> 
             
                     <footer>
                             <div>
@@ -379,7 +381,7 @@
                             </div>
                     </footer>
                 
-            </div>    
+               
         </div>     
     </body>
 </html>
