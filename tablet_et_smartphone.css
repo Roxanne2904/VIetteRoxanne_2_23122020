@@ -89,7 +89,7 @@ nav li
 #research
 {
     margin-top: 1.5em;
-    padding-left: 3.5%;
+    padding-left: 5%;
 }
 #bloc_filtre
 {
@@ -102,16 +102,20 @@ nav li
     width: 100%;
     flex-wrap: wrap;
     position: relative;
-    left: 0;
+    left: -0.7em;
 }
 #element_eco,#element_animaux,#element_romantique,#element_famille
 {
    margin:0.5em; 
 }
-
+#element_famille:hover,#element_animaux:hover,#element_eco:hover,#element_romantique:hover
+{
+    border: #0065FC solid 0.15em;
+    padding-left: 0em;
+}
 #h1_research
 {
-    font-size: 1.56em;
+    font-size: 1.45em;
     width: 89%;
     margin:0;
 }
@@ -119,32 +123,46 @@ nav li
 {
     margin-top: 1em;
     margin-bottom: 0;
+    font-size: 0.93em;
 }
 #bloc_formulaire
 {
     margin-top: 1.5em;
-    width: 20em;
-    height: 3.1em;
+    width: 21.2em;
+    height: 3.5em;
     justify-content: space-between;
-    overflow: visible;
+    overflow: hidden;
+    border-radius: 1em;
 }
 form
 {
-  width:87%;  
+  width:85%;  
   background-color: transparent;
+  margin:0;
 }
-#bloc_formulaire p, label {
+#bloc_form_logo
+{
     margin: 0;
+    width: 16.2%;
 }
 input
 {
     position: relative;
     top: 0.145em;
-    left: 0em;
-    height: 2.55em;
-    width: 15em;
+    left:0;
+    height: 90%;
+    width:100%;
     font-size: 1.1em;
     border: transparent 0.2em solid;
+    padding-left: 0.7em;
+}
+#bloc_input_label
+{
+    position:initial;
+    overflow: visible;
+    margin:0;
+    width: 102.5%;
+    height:100%;
 }
 label
 {
@@ -153,27 +171,27 @@ label
 #label_mobile 
 {
     display: initial;
-    position: absolute;
-    bottom: 0em;
-    right: 0em;
-    width: 3.25em;
-    height: 3.25em;
+    position: relative;
+    bottom: 0;
+    left:-0.4em;
+    width: 25%;
+    height: 100%;
     border-radius: 1em;
     font-size: 0.95em;
     background-color:#0065FC;
 }
 #label_mobile i 
 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     position: relative;
-    top: 0.65em;
-    left: 0.55em;
+    top: 1.25em;
+    left: 1.15em;
 }
 #logo_form {
     position: relative;
-    left: 0.8em;
-    top: 0.8em;
-    font-size: 1.2em;
+    left: 1.1em;
+    top: 1em;
+    font-size: 1.1em;
 }
 p.text_rang3
 {
@@ -216,14 +234,28 @@ aside
 {
     flex-direction: column;
 }
+#bloc_aside
+{
+    padding: 3% 0 7% 0;
+}
 .photo_asd
 {
-    width: 8.7em;
+    width: 9em;
 }
 .element_a
 {
     width: auto;
     height: 14em;
+}
+.element_asd
+{
+    height: 9.5em;
+    margin: 2% 7%
+}
+#photo_3asd
+{
+    width: 110%;
+    right: 6.7%;
 }
 #textfin_a
 {
@@ -238,15 +270,205 @@ aside
 {
     font-size: 1.15em;
 }
+aside h3
+{
+
+}
 .infos_prix
 {
-    font-size: 0.95em;
+    font-size: 0.95em; 
+}
+aside .infos_prix
+{
+    margin-top: 0.3em;
+    font-size: 0.8em;
 }
 #hebergement ul
 {
     font-size: 1.05em; 
 }
+aside ul 
+{
+    bottom: -1.2em;
+    font-size: 1em;
+}
 .text_photo_a
 {
     padding-top: 1.3em;
+    padding-left: 0.8em;
+}
+#photo_1, #photo_2, #photo_3
+{
+    bottom: 2.9em;
+}
+#photo_4
+{
+    bottom: 7em;
+}
+#photo_5
+{
+    bottom: 3.5em;
+}
+#photo_6
+{
+    bottom: 13em;
+}
+
+/*Ajustement avec d'autre règles medias queries*/
+
+@media all and (min-width: 565px) and (max-width: 831px)
+{
+    #bloc_filtre
+    {
+        width:50%;
+    }
+}
+@media all and (min-width: 395px) and (max-width: 991px)
+{
+    .element_asd
+    {
+        height: 12em;
+        
+    }
+    .element_a
+    {
+        height: 20em;
+        margin: 0.75em 0.75em 2em 0.75em;
+    }
+    .photo_a
+    {
+        height: 65%;
+    }
+    .photo_asd
+    {
+        width: 13em;
+    }
+    #photo_3asd
+    {
+        bottom: 6em;
+    }
+    #bloc_hebergement
+    {
+        margin: 0 2em;
+    }
+    #bloc_aside 
+    {
+        padding: 0% 0 7% 0;
+    }
+    aside h2, h2#titre_principal
+    {
+        padding-left: 2em;
+        font-size: 1.5em;
+    }
+    aside h3
+    {
+        font-size: 0.9em;
+        padding: 0.5em 1em 0em 0em;
+    }
+    #hebergement h3
+    {
+        font-size: 1.3em;
+    }
+    aside .infos_prix
+    {
+        font-size: 0.9em;
+        padding-right: 0.3em;
+    }
+    #hebergement ul
+    {
+        font-size: 1.2em;
+        bottom: 0em;
+    }
+    aside ul
+    {
+        bottom: -2.8em;
+    }
+    .text_photo_a
+    {
+        padding-left: 1em;
+    }
+    .text_photo_asd
+    {
+        padding: 0.9em 0em 0em 1.2em;
+    }
+    #titre_logo_asd
+    {
+        padding-right: 1.8em;
+    }
+    #photo_1, #photo_2, #photo_3 
+    {
+       bottom: 0; 
+    }
+    #photo_4
+    {
+        bottom: 1em;
+    }
+    #photo_5
+    {
+        bottom: 0em;
+    }
+/*PETITE AJUSTEMENT AVEC LES MEDIAS QUERIES*/
+    
+    @media all and (min-width: 827px) and (max-width: 991px) /*réglages des img hebergement*/
+    {
+        #photo_1, #photo_2, #photo_3 
+        {
+            bottom: 17em; 
+        }
+        #photo_4
+        {
+            bottom: 26em;
+        }
+        #photo_5
+        {
+            bottom: 10em;
+        }
+        #photo_6
+        {
+            bottom:38em;
+        }
+        
+    }
+    
+    @media all and (min-width: 650px) and (max-width: 826.99px) /*réglages des img hebergement*/
+    {
+        #photo_1, #photo_2, #photo_3 
+        {
+            bottom: 10em; 
+        }
+        #photo_4
+        {
+            bottom: 17em;
+        }
+        #photo_5
+        {
+            bottom: 9em;
+        }
+        #photo_6
+        {
+            bottom:28em;
+        }
+        
+    }
+    
+    @media all and (min-width: 500px) and (max-width: 649.99px) /*réglages des img hebergement*/
+    {
+        #photo_1, #photo_2, #photo_3 
+        {
+            bottom: 3em; 
+        }
+        #photo_4
+        {
+            bottom: 10em;
+        }
+        #photo_5
+        {
+            bottom: 4em;
+        }
+        #photo_6
+        {
+            bottom:19em;
+        }
+        
+    }
 }
