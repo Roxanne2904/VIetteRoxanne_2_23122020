@@ -161,7 +161,7 @@ input
     width: 102%;
     height:100%;
 }
-label
+#label
 {
     display:none;
 }
@@ -176,13 +176,14 @@ label
     border-radius: 1em;
     font-size: 0.95em;
     background-color:#0065FC;
+    border: 0.5em #0065FC solid;
 }
 #label_mobile i 
 {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    color: white;
     position: relative;
-    top: 33.5%;
-    left: 33.5%;
+    top: 5%;
 }
 #logo_form {
     position: relative;
@@ -669,8 +670,7 @@ footer h2,footer ul
     }
     #label_mobile i
     {
-        top: 33%;
-        left: 30%;
+        left: -3%;
     }
     .element_asd
     {

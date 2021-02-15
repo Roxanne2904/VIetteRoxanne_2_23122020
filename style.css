@@ -169,6 +169,10 @@ input
     padding-left: 1em;
     border:#f2f2f2 0.1em solid;
 }
+input:focus
+{
+    outline: none;
+}
 ::-webkit-input-placeholder
 {
     color:black;
@@ -181,7 +185,7 @@ input
     overflow: hidden;
     border-radius: 0 0.8em 0.8em 0;
 }
-label
+#label
 {
     font-size: 0.95em;
     color:white;
@@ -191,14 +195,13 @@ label
     border-radius: 0 0.8em 0.8em 0;
     position: relative;
     bottom: 0.5em;
-    left: 0.5em;
+    left: 0;
     margin:0;
+    padding: 0;
 }
-label strong
+#label:focus
 {
-    position: relative;
-    top: 1.2em;
-    left: 1em;
+    border: none;
 }
 #label_mobile
 {
@@ -645,7 +648,7 @@ aside a:visited
 
 #activites
 {
-    margin-top: 3%;
+    padding-top: 3%;
 }
 #bloc_activites
 {
