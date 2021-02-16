@@ -201,7 +201,10 @@ p.text_rang3
 }
 
 /*HEBERGEMENT_ARTICLE_ET_ASIDE*/
-
+.photo
+{
+    top:29%;
+}
 #titre_principal
 {
     position: initial;
@@ -236,7 +239,7 @@ aside
 {
     padding: 3% 0 7% 0;
 }
-.photo_asd
+.bloc_photo_asd
 {
     width: 9em;
 }
@@ -244,17 +247,11 @@ aside
 {
     width: auto;
     height: 14em;
-    margin:0.75em 1em;
 }
 .element_asd
 {
     height: 9.5em;
     margin: 2% 7%
-}
-#photo_3asd
-{
-    width: 110%;
-    right: 6.7%;
 }
 #textfin_a
 {
@@ -294,22 +291,6 @@ aside ul
     padding-top: 1.3em;
     padding-left: 0.8em;
 }
-#photo_1, #photo_2, #photo_3
-{
-    bottom: 2.9em;
-}
-#photo_4
-{
-    bottom: 7em;
-}
-#photo_5
-{
-    bottom: 3.5em;
-}
-#photo_6
-{
-    bottom: 13em;
-}
 /*ACTIVITES*/
 #activites h2
 {
@@ -340,13 +321,6 @@ aside ul
 {
     height: 75%;
 }
-.img_tall
-{
-    width: 140%;
-    height: auto;
-    right: 4em;
-    bottom:4em;
-}
 .bloc_2
 {
     width: auto;
@@ -372,10 +346,6 @@ aside ul
 {
     height: 75%;
 }
-#img_mini_spé
-{
-    bottom: 8.8em;
-}
 /*FOOTER*/
 footer
 {
@@ -395,7 +365,7 @@ footer h2,footer ul
         width:50%;
     }
 }
-@media all and (min-width: 395px) and (max-width: 991px) /*TABLETTE REGLAGES*/
+@media all and (min-width: 510px) and (max-width: 991px) /*TABLETTE REGLAGES*/
 {
     /*FORMULAIRE*/
 
@@ -403,46 +373,59 @@ footer h2,footer ul
     {
         width: 22em;
     }
-    /*HEBERGEMENT ET ASIDE*/
-    
-    .element_asd
+    /*WRAPPER POUR S'ADAPTER AUX TABLETTES*/
+    .wrapper_tablette
     {
-        height: 12em;
-        
+        margin:0%7%;
+    }
+    
+    /*HEBERGEMENT ET ASIDE*/
+    #hebergement
+    {
+        padding: 0;
+        padding-bottom: 7%;
+    }
+    .bloc_photo_a
+    {
+        height: 75%;
     }
     .element_a
     {
+        margin: 2%0%;
         height: 20em;
-        margin: 0.75em 0.75em 2em 0.75em;
     }
-    .photo_a
+    #titre_logo_asd
     {
-        height: 65%;
+        margin:0;
     }
-    .photo_asd
+    .element_asd
+    {
+        width: -webkit-fill-available;
+        margin: 2%0%;
+        height: 10em;
+    }
+    .bloc_photo_asd
     {
         width: 12em;
     }
-    #photo_3asd
-    {
-        bottom: 6em;
-    }
     h2#titre_principal
     {
-        padding-left: 2.5em;
-    }
-    #bloc_hebergement
-    {
-        margin: 0 2em;
+        padding: 0;
+        margin: 2%7%;
     }
     #titre_aside
     {
-        margin: 0 7%;
         padding: 0;
+        margin: 2%7%;
+        top:0;
     }
     #bloc_aside 
     {
-        padding: 0% 0 7% 0;
+        padding-bottom:7%;
+    }
+    aside h2
+    {
+        margin: 0;
     }
     aside h3
     {
@@ -451,7 +434,12 @@ footer h2,footer ul
     }
     #hebergement h3
     {
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+    #hebergement .infos_prix
+    {
+        margin-bottom: 0;
+        font-size: 0.8em;
     }
     aside .infos_prix
     {
@@ -460,35 +448,38 @@ footer h2,footer ul
     }
     #hebergement ul
     {
-        font-size: 1.2em;
-        bottom: 0em;
-    }
-    aside ul
-    {
-        bottom: -2.8em;
+        font-size: 0.8em;
+        bottom: 0.05em;
     }
     .text_photo_a
     {
         padding-left: 1em;
+        padding-top:1em ;
+        height:20%
     }
-    .text_photo_asd
+    #textfin_a
     {
-        padding: 0.9em 0em 0em 1.2em;
+        margin:3%0%;
+        padding: 0;
     }
-    #photo_1, #photo_2, #photo_3 
+    .photo
     {
-       bottom: 0; 
-       width: 105%;
+        top:30%;
     }
-    #photo_4
+    .photo_tall_activites
     {
-        bottom: 1em;
+        width: 100%;
     }
-    #photo_5
-    {
-        bottom: 0em;
-    }
+    
     /*ACTIVITES*/
+    #activites
+    {
+        padding: 0;
+    }
+    #activites h2
+    {
+        margin: 2%7%;
+    }
     #bloc_activites h3
     {
         padding-top: 1em;
@@ -496,161 +487,32 @@ footer h2,footer ul
     .bloc_1
     {
          height: 20em;
+         margin: 2%0%;
     }
     .bloc_mini_1
     {
         height: 20em;
+        margin: 2%0%;
     }
     .bloc_mini_2
     {
          height: 20em;
+         margin: 2%0%;
     }
     #bloc_activites h3
     {
         padding-top: 1em;
     }
-    .img_tall
-    {
-        bottom: 0em;
-        width: 120%;
-    }
-    .img_mini_2
-    {
-        bottom: 0em;
-        width: 135%;
-    }
-    #img_mini_1
-    {
-        position: relative;
-        bottom: 0em;
-    }
-    #img_mini_spé
-    {
-        bottom: 6em;
-    }
 
-    /*REGLAGES DES PHOTOS HEBERGEMENT et ACTIVITES*/
-    
-    @media all and (min-width: 827px) and (max-width: 991px) /*réglages des img hebergement*/
-    {
-        #photo_1, #photo_2, #photo_3 
-        {
-            bottom: 17em; 
-        }
-        #photo_4
-        {
-            bottom: 26em;
-        }
-        #photo_5
-        {
-            bottom: 10em;
-        }
-        #photo_6
-        {
-            bottom:38em;
-        }
-        .img_tall
-        {
-            bottom: 12em;
-            width: 110%;
-        }
-        .img_mini_2
-        {
-            bottom: 6em;
-            width: 110%;
-        }
-        #img_mini_1
-        {
-            position: relative;
-            bottom: 9em;
-        }
-        #img_mini_spé
-        {
-            bottom: 32em;
-        }
-        
-    }
-    
-    @media all and (min-width: 650px) and (max-width: 826.99px) /*réglages des imgs*/
-    {
-        #photo_1, #photo_2, #photo_3 
-        {
-            bottom: 10em; 
-        }
-        #photo_4
-        {
-            bottom: 17em;
-        }
-        #photo_5
-        {
-            bottom: 9em;
-        }
-        #photo_6
-        {
-            bottom:28em;
-        }
-        .img_tall
-        {
-            bottom: 9em;
-        }
-        .img_mini_2
-        {
-            bottom: 6em;
-        }
-        #img_mini_1
-        {
-            position: relative;
-            bottom: 9em;
-        }
-        #img_mini_spé
-        {
-            bottom: 27em;
-        }
-        
-    }
-    
-    @media all and (min-width: 500px) and (max-width: 649.99px) /*réglages des img hebergement*/
-    {
-        #photo_1, #photo_2, #photo_3 
-        {
-            bottom: 3em; 
-        }
-        #photo_4
-        {
-            bottom: 10em;
-        }
-        #photo_5
-        {
-            bottom: 4em;
-        }
-        #photo_6
-        {
-            bottom:19em;
-        }
-        .img_tall
-        {
-            bottom: 6.5em;
-            width: 120%;
-        }
-        .img_mini_2
-        {
-            bottom: 3em;
-        }
-        #img_mini_1
-        {
-            position: relative;
-            bottom: 7em;
-        }
-        #img_mini_spé
-        {
-            bottom: 19.5em;
-        }
-    }
 }
 
 /*X_SMALL_DEVICES*/
 @media all and (min-width: 275px) and (max-width: 360px)
 {
+    #bloc_titre_research 
+    {
+        margin-top: 0;
+    }
     #h1_research
     {
         font-size: 1em;
@@ -670,13 +532,13 @@ footer h2,footer ul
     }
     #label_mobile i
     {
-        left: -3%;
+        left: -10%;
     }
     .element_asd
     {
         height: 7em;
     }
-    .photo_asd
+    .bloc_photo_asd
     {
         width: 6em;
     }
@@ -689,29 +551,14 @@ footer h2,footer ul
     {
         padding: 0em 0em 0em 0.8em;
     }
-    #photo_1, #photo_2, #photo_3, #photo_5 
-    {
-        bottom: 0em;
-    }
-    #photo_6
-    {
-        bottom: 9.5em;
-    }
-    #photo_4 
-    {
-        bottom: 5em;
-    }
-    .img_mini_2
-    {
-        bottom: 0em;
-        width:120%;
-    }
-    .img_tall
-    {
-        bottom: 0em;
-    }
     #textfin_a
     {
-        margin: 3% 6%;
+        margin: 0;
+        margin-left: 0.75em;
+        padding: 0;
+    }
+    #bloc_activites h3
+    {
+        font-size: 0.95em;
     }
 }

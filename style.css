@@ -116,9 +116,7 @@ nav li:hover a
 }
 #bloc_titre_research
 {
-    display:flex;
-    flex-direction:column;
-    height:4em;
+    margin-top: 3em;
 }
 #h1_research, #hebergement h2, aside h2,#activites h2
 {
@@ -450,44 +448,30 @@ input:focus
 {
     border-color: #0065FC;
 }
-.photo_a
+.bloc_photo_a
 {
     width:100%;
     height:60%;
     overflow: hidden;
     border-radius: 0.8em 0.8em 0em 0em;
     margin:0%;  
-}
-#photo_1,#photo_2,#photo_3
-{
-    width:102%;
-    position:relative;
-    bottom: 1.5em;
-    right:0.2em;
-    height: auto;
-
-}
-#photo_4
-{
-    width:102%;
     position: relative;
-    bottom: 4em;
-    height: auto;
 }
-#photo_5
+.photo
 {
-    width: 130%;
-    height: auto;
-    position: relative;
-    bottom: 2em;
-    right:1.9em ;
+    width:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
 }
-#photo_6
+#photo_5_heberg
 {
-    width:102%;
-    position: relative;
-    bottom: 7.8em;
-    height: auto;
+    width:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
 }
 #hebergement h3, aside h3
 {
@@ -588,31 +572,22 @@ aside a
     display: flex;
     height:100%;
 }
-.photo_asd
+.bloc_photo_asd
 {
     width:6.3em;
     height:100%;
     margin:0;
     border-radius:0.8em 0em 0em 0.8em ;
     overflow: hidden;
+    position: relative;
 }
-#photo_1asd
+.photo_1_2_asd
 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 100%;
-    position: relative;
-    right:2.5em;
-}
-#photo_2asd
-{
-    height:100%;
-    position:relative;
-    right:1em;
-}
-#photo_3asd
-{
-    position: relative;
-    bottom: 1.7em;
-    width: 100%;
 }
 .text_photo_asd
 {
@@ -700,6 +675,7 @@ aside a:visited
     height: 87%;
     margin-top: 0em;
     overflow: hidden;
+    position: relative;
 }
 .bloc_mini_1
 {
@@ -743,6 +719,7 @@ aside a:visited
     height:74.2%;
     overflow: hidden;
     margin-top: 0em;
+    position: relative;
 }
 .bloc_img_mini_2
 {
@@ -750,27 +727,21 @@ aside a:visited
     height:67.2%;
     overflow: hidden;
     margin-top: 0em; 
-}
-.img_tall
-{
-    height: 100%;
     position: relative;
-    right:9em;
 }
-#img_mini_1
+.photo_tall_activites
 {
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.img_mini_2
+#photo_5_activites
 {
-    position: relative;
-    bottom: 0.6em;
-    width: 100%;
-}
-#img_mini_spé
-{
-    position: relative;
-    bottom: 7.5em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
     width: 100%;
 }
 #activites a:link

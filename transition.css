@@ -62,39 +62,24 @@ aside {
 }
 .text_photo_asd
 {
-    height: 12.5em;
-    padding: 0em 0.8em 0em 1.2em;
+    padding: 2% 1% 0% 8%;
+    height: 100%;
 }
 aside h3
 {
     font-size: 0.87em;
 }
-.photo_asd
+.bloc_photo_asd
 {
     width: 8.5em;
 }
-#photo_3asd
+aside ul
 {
-    bottom: 0em;
+    bottom: 0;
 }
 #bloc_activites h3
 {
     font-size: 0.83em;
-}
-#photo_1,#photo_2,#photo_3
-{
-    position: relative;
-    bottom: 2.5em;
-    right: 0.2em;
-}
-#photo_4 {
-    position: relative;
-    bottom: 7em;
-}
-#photo_6 
-{
-    position: relative;
-    bottom: 12.5em;
 }
 #textfin_a
 {
