@@ -9,15 +9,6 @@
     font-style: normal;
 
 }
-@font-face {
-    font-family: 'ralewaybold';
-    src: url('font/raleway-bold-webfont.woff2') format('woff2'),
-         url('font/raleway-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* CORPS DE LA PAGE  */
 
 html
@@ -84,7 +75,7 @@ nav li
 #s_inscrire
 {
     color:#0065FC;
-    font-family: 'ralewaybold';
+    font-weight: bolder;
 }
 nav a
 {
@@ -105,7 +96,7 @@ nav li:hover a
     width: 10em;
     color:#0065FC;
     border-top:0.18em #0065FC solid;
-    font-family: 'ralewaybold'; 
+    font-weight: bolder; 
 }
 /* SECTION_RESEARCH */
 
@@ -120,8 +111,7 @@ nav li:hover a
 }
 #h1_research, #hebergement h2, aside h2,#activites h2
 {
-    font-weight:bolder;
-    font-family:'ralewaybold';
+    font-weight: bolder;
     font-size: 1.3em;
     width:auto;
 }
@@ -136,7 +126,7 @@ nav li:hover a
     margin-bottom: 0;
     position: relative;
     bottom:0.6em;
-
+    margin-left: 0.3em;
 }
 #bloc_formulaire
 {
@@ -162,7 +152,7 @@ input
     height:100%;
     position: relative;
     left: 1em;
-    font-family:'ralewaybold' ;
+    font-weight: bolder;
     font-size: 0.95em;
     padding-left: 1em;
     border:#f2f2f2 0.1em solid;
@@ -318,7 +308,7 @@ input:focus
 }
 #titre_filtre
 {
-    font-family:'ralewaybold';
+    font-weight: bolder;
 }
 #bloc_filtre h2 
 {
@@ -427,7 +417,7 @@ input:focus
 #textfin_a
 {
     width: 15%;
-    font-family: 'ralewaybold' ;
+    font-weight: bolder;
     padding-left: 1.2em;
     padding-top: 0.8em;
 }
@@ -459,7 +449,7 @@ input:focus
 }
 .photo
 {
-    width:100%;
+    width:105%;
     position: absolute;
     top:50%;
     left:50%;
@@ -476,14 +466,14 @@ input:focus
 #hebergement h3, aside h3
 {
     font-size: 0.85em;
-    font-family:'ralewaybold' ;
+    font-weight: bolder;
     margin:0em;
     position: relative;
     bottom: 0.5em;
 }
 .infos_prix
 {
-    font-size: 0.79em;
+    font-size: 0.73em;
     margin-top: 0em;
     position: relative;
     bottom: 0.3em;
@@ -540,7 +530,7 @@ aside
 {
     display:flex;
     justify-content: space-between;
-    padding: 0em 0.8em 0em 1.2em;
+    padding: 0em 1.2em 0em 1.2em;
     position: relative;
     top: 0.5em;
 }
@@ -768,7 +758,7 @@ footer
 footer h2
 {
     font-size:1em;
-    font-family:'ralewaybold' ;
+    font-weight: bolder;
 }
 footer li
 {

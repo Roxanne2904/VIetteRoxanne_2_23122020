@@ -200,7 +200,7 @@ p.text_rang3
     margin-top: 1%;
 }
 
-/*HEBERGEMENT_ARTICLE_ET_ASIDE*/
+/*SECTION_HEBERGEMENT_ET_ASIDE*/
 .photo
 {
     top:29%;
@@ -291,6 +291,7 @@ aside ul
     padding-top: 1.3em;
     padding-left: 0.8em;
 }
+
 /*ACTIVITES*/
 #activites h2
 {
@@ -346,6 +347,7 @@ aside ul
 {
     height: 75%;
 }
+
 /*FOOTER*/
 footer
 {
@@ -401,6 +403,7 @@ footer h2,footer ul
     .element_asd
     {
         width: -webkit-fill-available;
+        width: -moz-available;
         margin: 2%0%;
         height: 10em;
     }
@@ -464,7 +467,7 @@ footer h2,footer ul
     }
     .photo
     {
-        top:30%;
+        top:40%;
     }
     .photo_tall_activites
     {
@@ -509,6 +512,15 @@ footer h2,footer ul
 /*X_SMALL_DEVICES*/
 @media all and (min-width: 275px) and (max-width: 360px)
 {
+    .photo 
+    {
+        top: 50%;
+        width: 110%;
+    }
+    #photo_5_activites
+    {
+        width:150%;
+    }
     #bloc_titre_research 
     {
         margin-top: 0;
@@ -550,12 +562,6 @@ footer h2,footer ul
     .text_photo_asd
     {
         padding: 0em 0em 0em 0.8em;
-    }
-    #textfin_a
-    {
-        margin: 0;
-        margin-left: 0.75em;
-        padding: 0;
     }
     #bloc_activites h3
     {

@@ -1,8 +1,7 @@
-16/02/2021
--Le responsive est terminé
--il y a eu quelques modification sur l'enssemble en particulier sur lestoutes les images:
- j'ai utilisé la technique de position relative et absolute ( transform:translate ).
-- Cela à permis de retirer tous les breakpoints inutiles. 
-- pour la version "tablette", j'ai légèrement retravaillé quelques images pour qu'elles restent
-  en basse résolution mais avec un meilleur rendu que le dossier"small".
-  
+17/02/2021
+-Quelques modifications de dernières minutes sur les conteneurs des images hébergements.
+-Changement avec la police de texte, j'ai retiré "ralewaybold", le rendu n'était pas 
+ esthétique sur firefox.
+-les fichiers html et css sont validés par le W3C.
+-le test à été fait sur mon portable et ma tablette; le résulat est bien identique à celui 
+ de l'inspecteur des propriétés en vue adaptative. 
