@@ -1,0 +1,89 @@
+#bloc_filtre 
+{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:0%;
+}
+
+#bloc_element_filtre
+{
+    flex-direction: column;
+    position: relative;
+    left: 0;
+}
+#element_famille,#element_romantique,#element_animaux
+{
+    margin-top:0.5em;
+}
+#bloc_hebergement_et_aside
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#hebergement
+{
+    flex:1;
+    width:auto;
+    padding:0.2em 1em 3em 1em;
+    margin-right:0%;
+}
+.element_a
+{
+    height: 13em;
+}
+#hebergement h3
+{
+    font-size: 0.95em;
+}
+#hebergement ul
+{
+    position: initial;
+}
+.text_photo_a {
+    padding-left: 0.8em;
+    padding-top: 1em;
+}
+aside {
+    width: auto;
+    padding: 0.8em 1em 1em 1em;
+    margin-top: 1em;
+    height:18em;
+}
+#bloc_aside {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+.element_asd
+{
+    margin: 1% 1.5% 1% 2%;
+    height: 10em;
+}
+.text_photo_asd
+{
+    padding: 2% 1% 0% 8%;
+    height: 100%;
+}
+aside h3
+{
+    font-size: 0.87em;
+}
+.bloc_photo_asd
+{
+    width: 8.5em;
+}
+aside ul
+{
+    bottom: 0;
+}
+#bloc_activites h3
+{
+    font-size: 0.83em;
+}
+#textfin_a
+{
+    padding-left: 1.5em;
+}
+    
+    

@@ -1,0 +1,570 @@
+#bloc_page
+{
+    margin:0;
+    width: auto;
+}
+/*HEADER_NAVIGATION*/
+
+header
+{
+    height:8em;
+}
+nav
+{
+    width:100%;
+}
+#logo
+{
+    padding-left: 2.5%;
+    position: absolute;
+    bottom: 0em;
+    top: 1.5em;
+    left: 0.5em;
+}
+nav ul
+{
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+}
+nav li:hover
+{
+    width:50%;
+    height:0;
+    border-bottom: 0.20em #0065FC solid;
+    color: #0065FC;
+}
+nav li a:hover
+{
+    border-bottom: 0;
+    border-top: 0;
+    color:#0065FC;
+}
+nav li:hover a
+{
+    border-top: none;
+}
+nav li
+{
+    width: 50%;
+    padding:0 0 0.5em 0;
+    border-bottom: 0.20em #f2f2f2 solid;
+}
+#bloc_logo {
+    z-index: 1;
+}
+#s_inscrire
+{
+    height: 50%;
+    order:3;
+    justify-content: flex-end;
+    padding-right: 4%;
+    border-bottom: none;
+    font-size: 1em;
+}
+#s_inscrire:hover
+{
+    border-bottom: none;
+}
+#nav_activites
+{
+    height: 40%;
+    order:2;
+    font-size:1em;
+}
+#nav_hebergement
+{
+    order:3;
+    height: 40%;
+    font-size:1em;
+}
+
+/*FILTRES*/
+#research
+{
+    margin-top: 1.5em;
+    padding-left: 5%;
+}
+#bloc_filtre
+{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 98%;
+}
+#bloc_element_filtre
+{
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    left: -0.7em;
+}
+#element_eco,#element_animaux,#element_romantique,#element_famille
+{
+   margin:0.5em; 
+}
+#element_famille:hover,#element_animaux:hover,#element_eco:hover,#element_romantique:hover
+{
+    border: #0065FC solid 0.15em;
+    padding-left: 0em;
+}
+#h1_research
+{
+    font-size: 1.45em;
+    width: 89%;
+    margin:0;
+}
+#soustext_h1_research
+{
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: 0.93em;
+}
+#bloc_formulaire
+{
+    margin: 1.5em 5% 0% 0%;
+    width: auto;
+    height: 3.5em;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 1em;
+}
+form
+{
+  width:85%;  
+  background-color: transparent;
+  margin:0;
+}
+#bloc_form_logo
+{
+    margin: 0;
+    width: 15%;
+}
+input
+{
+    position: relative;
+    top: 0.145em;
+    left:0;
+    height: 90%;
+    width:80%;
+    font-size: 1.1em;
+    border: transparent 0.2em solid;
+    padding-left: 0.7em;
+}
+#bloc_input_label
+{
+    position:initial;
+    overflow: visible;
+    margin:0;
+    width: 102%;
+    height:100%;
+}
+#label
+{
+    display:none;
+}
+#label_mobile 
+{
+    display: initial;
+    position: relative;
+    bottom: 0;
+    left:-0.4em;
+    width: 20%;
+    height: 100%;
+    border-radius: 1em;
+    font-size: 0.95em;
+    background-color:#0065FC;
+    border: 0.5em #0065FC solid;
+}
+#label_mobile i 
+{
+    font-size: 1.3em;
+    color: white;
+    position: relative;
+    top: 5%;
+}
+#logo_form {
+    position: relative;
+    left: 34.5%;
+    top: 33.5%;
+    font-size: 1.1em;
+}
+p.text_rang3
+{
+    width: 80%;
+}
+#conteneur_logo_infos
+{
+    margin-top: 1%;
+}
+
+/*SECTION_HEBERGEMENT_ET_ASIDE*/
+.photo
+{
+    top:29%;
+}
+#titre_principal
+{
+    position: initial;
+    width: auto;
+    font-size: 1.4em;
+}
+#bloc_hebergement_et_aside
+{
+    flex-direction: column-reverse;
+    margin-top:0;
+}
+aside
+{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+}
+#hebergement
+{
+    width: auto;
+    margin-right: 0;
+    border-radius: 0;
+    padding: 0.5em 0.5em 0em 0.5em;
+    background-color: transparent;
+}
+#bloc_hebergement
+{
+    flex-direction: column;
+}
+#bloc_aside
+{
+    padding: 3% 0 7% 0;
+}
+.bloc_photo_asd
+{
+    width: 9em;
+}
+.element_a
+{
+    width: auto;
+    height: 14em;
+}
+.element_asd
+{
+    height: 9.5em;
+    margin: 2% 7%
+}
+#textfin_a
+{
+    width: auto;
+    padding-left: 2%;
+    padding-top: 0;
+    margin: 3% 5%;
+}
+#hebergement h3
+{
+    font-size: 1em;
+}
+#hebergement h3
+{
+    font-size: 1.15em;
+}
+.infos_prix
+{
+    font-size: 0.95em; 
+}
+aside .infos_prix
+{
+    margin-top: 0.3em;
+    font-size: 0.8em;
+}
+#hebergement ul
+{
+    font-size: 1.05em; 
+}
+aside ul 
+{
+    bottom: -1.2em;
+    font-size: 1em;
+}
+.text_photo_a
+{
+    padding-top: 1.3em;
+    padding-left: 0.8em;
+}
+
+/*ACTIVITES*/
+#activites h2
+{
+    margin-left: 1.2em;
+}
+#activites
+{
+    padding-top: 7%;
+    margin-top: 0;
+}
+#bloc_activites
+{
+    flex-direction: column;
+    height: auto;
+}
+.bloc_1_et_2
+{
+    flex-direction: column;
+    width: auto;
+}
+.bloc_1
+{
+    width: auto;
+    height: 14em;
+    margin:0.75em 1.5em;
+}
+.bloc_img_tall
+{
+    height: 75%;
+}
+.bloc_2
+{
+    width: auto;
+    height: auto;
+}
+.bloc_mini_1
+{
+    height: 14em;
+    width: auto;
+    margin:0.75em 1.5em;
+}
+.bloc_img_mini_1
+{
+    height: 75%;
+}
+.bloc_mini_2
+{
+    height: 14em;
+    width: auto;
+    margin:0.75em 1.5em;
+}
+.bloc_img_mini_2
+{
+    height: 75%;
+}
+
+/*FOOTER*/
+footer
+{
+    flex-direction: column;
+}
+footer h2,footer ul
+{
+    margin-left: 1em;
+}
+
+/*AJUSTEMENTS POUR TABLETTES avec les MEDIAS QUERIES*/
+
+@media all and (min-width: 565px) and (max-width: 831px) /*petits réglages sur les filtres*/
+{
+    #bloc_filtre
+    {
+        width:50%;
+    }
+}
+@media all and (min-width: 510px) and (max-width: 991px) /*TABLETTE REGLAGES*/
+{
+    /*FORMULAIRE*/
+
+    #bloc_formulaire
+    {
+        width: 22em;
+    }
+    /*WRAPPER POUR S'ADAPTER AUX TABLETTES*/
+    .wrapper_tablette
+    {
+        margin:0%7%;
+    }
+    
+    /*HEBERGEMENT ET ASIDE*/
+    #hebergement
+    {
+        padding: 0;
+        padding-bottom: 7%;
+    }
+    .bloc_photo_a
+    {
+        height: 75%;
+    }
+    .element_a
+    {
+        margin: 2%0%;
+        height: 20em;
+    }
+    #titre_logo_asd
+    {
+        margin:0;
+    }
+    .element_asd
+    {
+        width: -webkit-fill-available;
+        width: -moz-available;
+        margin: 2%0%;
+        height: 10em;
+    }
+    .bloc_photo_asd
+    {
+        width: 12em;
+    }
+    h2#titre_principal
+    {
+        padding: 0;
+        margin: 2%7%;
+    }
+    #titre_aside
+    {
+        padding: 0;
+        margin: 2%7%;
+        top:0;
+    }
+    #bloc_aside 
+    {
+        padding-bottom:7%;
+    }
+    aside h2
+    {
+        margin: 0;
+    }
+    aside h3
+    {
+        font-size: 0.9em;
+        padding: 0.5em 1em 0em 0em;
+    }
+    #hebergement h3
+    {
+        font-size: 1em;
+    }
+    #hebergement .infos_prix
+    {
+        margin-bottom: 0;
+        font-size: 0.8em;
+    }
+    aside .infos_prix
+    {
+        font-size: 0.9em;
+        padding-right: 0.4em;
+    }
+    #hebergement ul
+    {
+        font-size: 0.8em;
+        bottom: 0.05em;
+    }
+    .text_photo_a
+    {
+        padding-left: 1em;
+        padding-top:1em ;
+        height:20%
+    }
+    #textfin_a
+    {
+        margin:3%0%;
+        padding: 0;
+    }
+    .photo
+    {
+        top:40%;
+    }
+    .photo_tall_activites
+    {
+        width: 100%;
+    }
+    
+    /*ACTIVITES*/
+    #activites
+    {
+        padding: 0;
+    }
+    #activites h2
+    {
+        margin: 2%7%;
+    }
+    #bloc_activites h3
+    {
+        padding-top: 1em;
+    }
+    .bloc_1
+    {
+         height: 20em;
+         margin: 2%0%;
+    }
+    .bloc_mini_1
+    {
+        height: 20em;
+        margin: 2%0%;
+    }
+    .bloc_mini_2
+    {
+         height: 20em;
+         margin: 2%0%;
+    }
+    #bloc_activites h3
+    {
+        padding-top: 1em;
+    }
+
+}
+
+/*X_SMALL_DEVICES*/
+@media all and (min-width: 275px) and (max-width: 360px)
+{
+    .photo 
+    {
+        top: 50%;
+        width: 110%;
+    }
+    #photo_5_activites
+    {
+        width:150%;
+    }
+    #bloc_titre_research 
+    {
+        margin-top: 0;
+    }
+    #h1_research
+    {
+        font-size: 1em;
+    }
+    input
+    {
+        top: 0.17em;
+        font-size:0.9em;
+    }
+    #bloc_input_label
+    {
+        width: 102.75%;
+    }
+    #bloc_formulaire
+    {
+        height: 3em;
+    }
+    #label_mobile i
+    {
+        left: -10%;
+    }
+    .element_asd
+    {
+        height: 7em;
+    }
+    .bloc_photo_asd
+    {
+        width: 6em;
+    }
+    aside ul
+    {
+        bottom: 11%;
+        font-size: 0.8em;
+    }
+    .text_photo_asd
+    {
+        padding: 0em 0em 0em 0.8em;
+    }
+    #bloc_activites h3
+    {
+        font-size: 0.95em;
+    }
+}
