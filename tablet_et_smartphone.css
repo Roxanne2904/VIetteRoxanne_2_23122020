@@ -510,7 +510,7 @@ footer h2,footer ul
 }
 
 /*X_SMALL_DEVICES*/
-@media all and (min-width: 275px) and (max-width: 360px)
+@media all and (min-width: 270px) and (max-width: 360px)
 {
     .photo 
     {
@@ -544,7 +544,7 @@ footer h2,footer ul
     }
     #label_mobile i
     {
-        left: -10%;
+        right: 8%;
     }
     .element_asd
     {
