@@ -226,6 +226,7 @@ aside
 #hebergement
 {
     width: auto;
+    height: initial;
     margin-right: 0;
     border-radius: 0;
     padding: 0.5em 0.5em 0em 0.5em;
