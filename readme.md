@@ -1,3 +1,5 @@
+## I started this project on 11/01/2021
+
 17/02/2021
 -Quelques modifications de dernières minutes sur les conteneurs des images hébergements.
 -Changement avec la police de texte, j'ai retiré "ralewaybold", le rendu n'était pas 
